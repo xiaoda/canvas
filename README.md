@@ -83,7 +83,7 @@ HTML5 提供了 Canvas 和 SVG 两种绘图技术，也是多数 Web 图表库�
 4. [特殊的图片展示功能](https://openseadragon.github.io/)
 
 ## Extension
-1. 浏览器本质上就是一个功能齐全的 Canvas。
+1. 浏览器本质上就是一个功能齐全、超级复杂的 Canvas。
 2. &lt;canvas&gt; 与 &lt;audio&gt; &lt;video&gt; 等标签丰富、增强了浏览器前端的能力，可用于复杂的功能需求。
 
 ### 【案例】录制视频，截取图片并上传 / 下载
@@ -168,4 +168,9 @@ HTML5 提供了 Canvas 和 SVG 两种绘图技术，也是多数 Web 图表库�
 #### HTML
 <img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/design.png" width="48%" align="top" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/code.png"  width="48%" align="top" />
 
+CSS 样式及更多功能待开发；算法需持续完善。
+
 ## Last but not Least
+1. 在有更好的办法前，不完善的办法总比没有强。
+2. 想法付诸实践，成功或失败都有收获。
+3. 面对困难始终保持积极的心态
