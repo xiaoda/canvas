@@ -154,20 +154,18 @@ HTML5 提供了 Canvas 和 SVG 两种绘图技术，也是多数 Web 图表库�
 
 ### Steps
 #### 设计稿
-<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/design.png" style="zoom: 50%" />
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/design.png" width="48%" />
 
 #### 边缘检测 & 实体检测
-<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/detect-edge.png" style="zoom: 50%" />
-<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/highlight-stuff.png" style="zoom: 50%" />
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/detect-edge.png"  width="48%" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/highlight-stuff.png" width="48%" />
 
 #### 实体数据
-<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/stuff.png" style="zoom: 50%" />
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/stuff.png" />
 
 #### 结构数据
-<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/structure.png" style="zoom: 50%" />
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/structure.png" />
 
 #### HTML
-<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/design.png" style="zoom: 50%; vertical-align: top;" />
-<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/code.png" style="zoom: 50%; vertical-align: top;" />
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/design.png" width="48%" align="top" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/code.png"  width="48%" align="top" />
 
 ## Last but not Least
