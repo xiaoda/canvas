@@ -54,14 +54,15 @@ ctx.stroke()
 3. 性能优化
 
 ### P.S.
-1. 原生 or 库？以 jQuery / WebSocket 为例，聊聊底层和应用层。
+1. 底层和应用层 API 设计的差异
+2. 使用库（面向百度编程） or 原生代码（自己撸）？以 jQuery / WebSocket 为例，聊聊如何选择适合的开发方式。
 
 ## [Canvas vs SVG](https://g2.antv.vision/zh/docs/manual/tutorial/renderers)
 HTML5 提供了 Canvas 和 SVG 两种绘图技术，也是多数 Web 图表库使用的渲染技术。Canvas 是基于脚本的，通过 JavaScript 指令来动态绘图。而 SVG 则是使用 XML 文档来描述矢量图。两者有不同的适用场景。
 
 ### 适用场景
-- Canvas 提供的绘图能力更底层，适合做到像素级的图形处理，能动态渲染和绘制大数据量的图形。
-- SVG 抽象层次更高，声明描述式的接口功能更丰富，内置了大量的图形、滤镜和动画等，方便进行文档元素的维护，也能导出为文件脱离浏览器环境使用。
+- Canvas 提供的绘图能力更底层，适合做到像素级的图形处理，能动态渲染和绘制大数据量的图形。（适合游戏等）
+- SVG 抽象层次更高，声明描述式的接口功能更丰富，内置了大量的图形、滤镜和动画等，方便进行文档元素的维护，也能导出为文件脱离浏览器环境使用。（适合网页、文档等）[【SVG 示例】](http://43.254.54.39:8103/)[【情况类似的 CSS3 动画】](https://animate.style/)
 
 ### 性能差异
 - 从底层来看，Canvas 的性能受画布尺寸影响更大。
@@ -137,15 +138,15 @@ HTML5 提供了 Canvas 和 SVG 两种绘图技术，也是多数 Web 图表库�
 ## Project
 1. [Flipboard/react-canvas](https://github.com/Flipboard/react-canvas)：在移动端页面使用支持硬件加速的 Canvas 代替性能较差的 DOM 的一次尝试
 
-## Design to Code
+## [Design to Code](https://github.com/xiaoda/design2code)
 ### Preface
 我们深知前端开发存在的问题，并期待进化。其实前端行业一直在不断发展和变革，短期看不一定能发现明显的进步，但长期看就一定能看到。
 
 就我个人而言，我觉得前后端联调是开发流程中最复杂、耗时最长、问题最多的阶段，但这个阶段想要从前端单一方面进行改进是非常困难的。而前端开发流程中相对机械的工作：静态页面开发，可能是一个很好的切入点。
 
 ### Relavant Project
-1. [阿里 imgcook](https://www.imgcook.com/)
-2. [蓝湖](https://zhuanlan.zhihu.com/p/355970754)
+1. [蓝湖](https://zhuanlan.zhihu.com/p/355970754)
+2. [阿里 imgcook](https://www.imgcook.com/)
 
 ### [Canvas Pixel](https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API/Tutorial/Pixel_manipulation_with_canvas)
 
