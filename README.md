@@ -152,6 +152,22 @@ HTML5 提供了 Canvas 和 SVG 两种绘图技术，也是多数 Web 图表库�
 
 到目前为止，我们尚未深入了解 Canvas 画布真实像素的原理，事实上，你可以直接通过 ImageData 对象操纵像素数据，直接读取或将数据数组写入该对象中。
 
-### Method
+### Steps
+#### 设计稿
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/design.png" style="zoom: 50%" />
+
+#### 边缘检测 & 实体检测
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/detect-edge.png" style="zoom: 50%" />
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/highlight-stuff.png" style="zoom: 50%" />
+
+#### 实体数据
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/stuff.png" style="zoom: 50%" />
+
+#### 结构数据
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/structure.png" style="zoom: 50%" />
+
+#### HTML
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/design.png" style="zoom: 50%; vertical-align: top;" />
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/code.png" style="zoom: 50%; vertical-align: top;" />
 
 ## Last but not Least
