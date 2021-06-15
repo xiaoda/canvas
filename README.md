@@ -10,6 +10,10 @@ Canvas API 主要聚焦于 2D 图形。而同样使用 &lt;canvas&gt; 元素的 
 ## Canvas 基础示例
 ### [【示例一】](https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API#%E7%BB%93%E6%9E%9C)
 
+``` html
+<canvas id="canvas"></canvas>
+```
+
 ``` javascript
 const canvas = document.getElementById('canvas')
 const ctx = canvas.getContext('2d')
@@ -84,13 +88,16 @@ HTML5 提供了 Canvas 和 SVG 两种绘图技术，也是多数 Web 图表库�
 ## Canvas 应用
 1. [签名](https://juejin.cn/post/6844903640843599886)
 
-<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/res/sign.png" />
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/res/sign.gif" />
 
 2. [刮刮卡](https://zhuanlan.zhihu.com/p/84020475)
 
 <img src="https://raw.githubusercontent.com/xiaoda/canvas/master/res/card.jpeg" />
 
 3. [小程序生成海报](https://fe.anchnet.com/2020/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%AE%9E%E8%B7%B5/)
+
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/res/poster.jpeg" width="48%" />
+
 4. [保存图片到本地](https://www.zhuyuntao.cn/canvas%E4%BF%9D%E5%AD%98%E5%9B%BE%E7%89%87%E5%88%B0%E6%9C%AC%E5%9C%B0)
 5. [特殊的图片展示功能](https://openseadragon.github.io/)
 
@@ -184,6 +191,8 @@ function main() {
 
 2. 浏览器本质上就是一个功能齐全、超级复杂的 Canvas。[【浏览器渲染流程】](https://juejin.cn/post/6844903565610188807)
 
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/res/render.webp" />
+
 ## Canvas 进阶项目
 1. [Flipboard/react-canvas](https://github.com/Flipboard/react-canvas)：在移动端页面使用支持硬件加速的 Canvas 代替性能较差的 DOM 的一次尝试
 2. [html2canvas](https://html2canvas.hertzen.com/)：将页面上指定的 DOM 元素渲染到 canvas 并保存
@@ -232,4 +241,4 @@ function main() {
 ## 写在最后
 1. 在有更好的办法之前，不完善的办法总比没有强。
 2. 想法付诸实践，不论成功或失败都有收获。
-3. 面对困难始终保持积极的心态
+3. 任何时候都保持积极的心态
