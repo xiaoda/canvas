@@ -18,6 +18,8 @@ ctx.fillStyle = 'green'
 ctx.fillRect(10, 10, 150, 100)
 ```
 
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/res/example1.png" />
+
 ### [【示例二】](https://developer.mozilla.org/zh-CN/docs/Web/API/CanvasRenderingContext2D#%E5%9F%BA%E7%A1%80%E7%A4%BA%E4%BE%8B)
 
 ``` javascript
@@ -41,6 +43,8 @@ ctx.lineTo(250, 140)
 ctx.closePath()
 ctx.stroke()
 ```
+
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/res/example2.png" />
 
 ## [Canvas 库](https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API#resources)
 1. [EaselJS](https://www.createjs.com/easeljs)
@@ -79,10 +83,19 @@ HTML5 提供了 Canvas 和 SVG 两种绘图技术，也是多数 Web 图表库�
 
 ## Canvas 应用
 1. [签名](https://juejin.cn/post/6844903640843599886)
+
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/res/sign.png" />
+
 2. [刮刮卡](https://zhuanlan.zhihu.com/p/84020475)
+
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/res/card.jpeg" />
+
 3. [小程序生成海报](https://fe.anchnet.com/2020/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%AE%9E%E8%B7%B5/)
 4. [保存图片到本地](https://www.zhuyuntao.cn/canvas%E4%BF%9D%E5%AD%98%E5%9B%BE%E7%89%87%E5%88%B0%E6%9C%AC%E5%9C%B0)
 5. [特殊的图片展示功能](https://openseadragon.github.io/)
+
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/res/open-sea-dragon.png" />
+
 6. 结合 Canvas 和 [OCR](https://cloud.tencent.com/product/ocr-catalog) 的能力，实现在图片上画框识字。
 
 ## [WebGL](https://developer.mozilla.org/zh-CN/docs/Web/API/WebGL_API)
@@ -115,7 +128,7 @@ function main() {
 ## WebGL 应用
 - [3D 小程序 POC](https://github.com/xiaoda/miniprogram-3d-poc)
 
-<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/miniprogram-3d-poc.png" width="48%" />
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/res/miniprogram-3d-poc.png" width="48%" />
 
 ## Canvas 的拓展性思考
 1. &lt;canvas&gt; 与 &lt;audio&gt; &lt;video&gt; 等 HTML5 标签丰富、增强了浏览器前端的能力，可用于复杂的功能需求。
@@ -192,22 +205,22 @@ function main() {
 
 ### 步骤
 #### 设计稿
-<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/design.png" width="48%" />
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/res/design.png" width="48%" />
 
 #### 边缘检测 & 实体检测
-<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/detect-edge.png"  width="48%" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/highlight-stuff.png" width="48%" />
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/res/detect-edge.png"  width="48%" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/res/highlight-stuff.png" width="48%" />
 
 #### 实体数据
-<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/stuff.png" />
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/res/stuff.png" />
 
 #### 结构数据
-<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/structure.png" />
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/res/structure.png" />
 
 #### HTML
-<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/design.png" width="48%" align="top" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/code.png"  width="40%" align="top" />
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/res/design.png" width="48%" align="top" />&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/res/code.png"  width="40%" align="top" />
 
 #### 具体步骤
-<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/images/steps.png" />
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/res/steps.png" />
 
 #### TODO
 1. CSS 样式及更多功能待开发
