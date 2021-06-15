@@ -96,7 +96,7 @@ HTML5 提供了 Canvas 和 SVG 两种绘图技术，也是多数 Web 图表库�
 
 3. [小程序生成海报](https://fe.anchnet.com/2020/%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%AE%9E%E8%B7%B5/)
 
-<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/res/poster.jpeg" width="48%" />
+<img src="https://raw.githubusercontent.com/xiaoda/canvas/master/res/poster.jpeg" width="60%" />
 
 4. [保存图片到本地](https://www.zhuyuntao.cn/canvas%E4%BF%9D%E5%AD%98%E5%9B%BE%E7%89%87%E5%88%B0%E6%9C%AC%E5%9C%B0)
 5. [特殊的图片展示功能](https://openseadragon.github.io/)
